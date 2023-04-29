@@ -1,0 +1,29 @@
+{
+  "props": [],
+  "components": {
+    "httpClient": {
+      "type": "bundle\\http\\HttpClient",
+      "x": 112,
+      "y": 16,
+      "props": {
+        "requestType": "URLENCODE",
+        "responseType": "JSON",
+        "connectTimeout": 5000,
+        "readTimeout": "0",
+        "followRedirects": "1",
+        "proxyType": "DIRECT",
+        "userAgent": "Electron"
+      }
+    },
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 48,
+      "y": 16,
+      "props": {
+        "path": "",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    }
+  }
+}

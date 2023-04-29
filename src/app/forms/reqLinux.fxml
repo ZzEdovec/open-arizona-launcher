@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232" prefWidth="512" styleClass="">
+  <children>
+    <TextArea AnchorPane.bottomAnchor="48" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" editable="false" focusTraversable="true" id="textArea" layoutX="0" layoutY="0" prefColumnCount="40" prefHeight="184" prefWidth="512" promptText="" styleClass="text-input text-area " text="Вручную установите эти пакеты при помощи системного пакетного менеджера, если они не установлены:&#10;&#10;lib32-pipewire или lib32-pulseaudio если звуковой сервер pulseaudio (только для Arch)&#10;wine или wine-staging (в Ubuntu подключите репозиторий winehq)&#10;winetricks (крайне желательно обновить при помощи sudo winetricks --self-update)&#10;p7zip или p7zip-full&#10;&#10;После установки или если эти пакеты уже установлены нажмите далее&#10;Нужна помощь? Обратитесь https://vk.me/queinu" wrapText="true">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-textArea" visible="1"/>
+    <Button AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="264" AnchorPane.rightAnchor="8" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="264" layoutY="190" prefHeight="32" prefWidth="240" styleClass="button " text="Далее" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <Button AnchorPane.bottomAnchor="9" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="264" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="8" layoutY="191" prefHeight="32" prefWidth="240" styleClass="button " text="Помощь" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+{
+  "props": {
+    "singleton": true
+  },
+  "components": {
+    "downloader": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 32,
+      "y": 16,
+      "props": {
+        "threadCount": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+/* JavaFX CSS Style with -fx- prefix */
+
+.hyperlink, .hyperlink:visited{
+    -fx-text-fill:White;
+}
+
+.hyperlink:hover, .hyperlink:pressed, .hyperlink:pressed:visited, .hyperlink:hover:visited{
+    -fx-text-fill:#cccccc;
+}
+
+.progress-bar, .progress-bar .track{
+    -fx-background-radius:8px;
+    -fx-background-color:#8066cc;
+}
+
+.progress-bar .track .bar{
+    -fx-background-color:White;
+}
+
+.list-view, .list-view:focused{
+    -fx-background-color:Transparent;
+}
+
+.list-cell{
+    -fx-background-color:White;
+    -fx-background-radius:8px;
+}
+
+.list-cell:hover, .list-cell:selected{
+    -fx-background-color:#cccccc;
+    -fx-background-radius:8px;
+}
+
+.scroll-bar{
+    -fx-background-color:Black;
+    -fx-pref-width: 5px;
+    -fx-pref-height: 5px;
+}
+
+.scroll-bar:hover{
+    -fx-background-color:Black;
+    -fx-pref-width: 12px;
+    -fx-pref-height: 12px;
+}

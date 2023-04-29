@@ -1,2 +1,4 @@
-# open-arizona-launcher
+# open arizona launcher
 Open Source Arizona RolePlay launcher
+
+####апи

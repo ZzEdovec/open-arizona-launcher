@@ -1,4 +1,16 @@
 # open arizona launcher
-Open Source Arizona RolePlay launcher
+Неофициальный Open Source лаунчер для Arizona RolePlay. Работает с официальными репозиториями Arizona Games. Нативно запускается на Linux, поддерживает быструю установку зависимостей для игры через winetricks.
 
-#### апи
+# Получение копии
+## Скачивание
+Скомпилированные версии лаунчера доступны в Releases. **exe для Windows**, а **jar - для Linux**
+## Компиляция
+- Скачайте, установите (если у вас Windows) и запустите http://develnext.org
+- Клонируйте этот репозиторий на ваш компьютер
+- Откройте через DevelNext файл `open arizona launcher.dnproject`
+- На верхней панели найдите кнопку "Собрать", нажмите
+- Выберите тип компиляции и настройте её под себя и нажмите "Собрать"
+- Profit!
+
+# Автор и помощь
+Обращайтесь сюда - https://vk.me/queinu или https://t.me/queinucentral

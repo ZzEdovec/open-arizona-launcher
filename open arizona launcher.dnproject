@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="zzedo" authorOS="Windows 10" createdAt="1682531206759" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="open arizona launcher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1682799248681">
+<project author="zzedo" authorOS="Windows 10" createdAt="1682531206759" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="open arizona launcher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1683470421948">
   <tree>
     <expanded>
     <path src=""/>

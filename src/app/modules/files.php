@@ -40,10 +40,11 @@ class files extends AbstractModule
                 $this->processDir($game->body());
             $this->checked = true;
             
-            if ($newuser)
-                $this->showDownloadedNotify();
-            uiLater(function ()
+            uiLater(function () use ($newuser)
             {
+            #if ($newuser)
+                $this->showDownloadedNotify();
+            
             app()->form('MainForm')->progressBar->hide();
             app()->form('MainForm')->label->hide();
             
@@ -117,8 +118,8 @@ class files extends AbstractModule
         $notify = new UXTrayNotification;
         $notify->title = 'Arizona';
         $notify->message = 'Игра скачана, можно играть!';
-        $notify->image = new UXImage('res://.data/img/111.png');
         $notify->notificationType = 'SUCCESS';
+        $notify->image = new UXImage('res://.data/img/111.png');
         $notify->show();
     }
     

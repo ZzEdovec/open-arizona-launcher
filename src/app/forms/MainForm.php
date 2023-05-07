@@ -14,7 +14,7 @@ class MainForm extends AbstractForm
      */
     function doLinkAction(UXEvent $e = null)
     {    
-        browse('https://arizona-rp.com/shop/');
+        $this->appModule()->detectSystem() == 'Windows' ? browse('https://arizona-rp.com/shop') : execute('xdg-open https://arizona-rp.com/shop');
     }
 
     /**

@@ -17,7 +17,7 @@
       </font>
     </FlatButton>
     <Data cursor="HAND" enabled="1" id="data-button" visible="1"/>
-    <ProgressBar AnchorPane.bottomAnchor="14" AnchorPane.leftAnchor="32" focusTraversable="false" id="progressBar" layoutX="32" layoutY="512" prefHeight="18" prefWidth="640" progress="0" styleClass="progress-bar "/>
+    <ProgressBar AnchorPane.bottomAnchor="14" AnchorPane.leftAnchor="32" focusTraversable="false" id="progressBar" layoutX="32" layoutY="510" prefHeight="18" prefWidth="640" progress="0" styleClass="progress-bar "/>
     <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible=""/>
     <LabelEx AnchorPane.bottomAnchor="36" AnchorPane.leftAnchor="32" alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="32" layoutY="488" prefHeight="20" prefWidth="640" styleClass="label " text="Статус" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="zzedo" authorOS="Windows 10" createdAt="1682531206759" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="open arizona launcher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1683470421948">
+<project author="zzedo" authorOS="Windows 10" createdAt="1682531206759" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="open arizona launcher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1683470897982">
   <tree>
     <expanded>
     <path src=""/>
@@ -14,13 +14,13 @@
     </expanded>
   </tree>
   <openedFiles>
-  <file selected="1" src="open arizona launcher.dnproject"/>
+  <file src="open arizona launcher.dnproject"/>
     <file src="src/app/forms/MainForm.php"/>
     <file src="src/app/modules/AppModule.php"/>
     <file src="src/app/forms/gameStarting.php"/>
     <file src="src/app/forms/installRequirments.php"/>
     <file src="src/app/forms/reqLinux.php"/>
-    <file src="src/app/modules/files.php"/>
+    <file selected="1" src="src/app/modules/files.php"/>
   </openedFiles>
   <files/>
   <behaviours>

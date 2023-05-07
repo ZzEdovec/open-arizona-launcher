@@ -42,13 +42,13 @@ class files extends AbstractModule
             
             uiLater(function () use ($newuser)
             {
-            #if ($newuser)
-                $this->showDownloadedNotify();
+                if ($newuser)
+                    $this->showDownloadedNotify();
             
-            app()->form('MainForm')->progressBar->hide();
-            app()->form('MainForm')->label->hide();
+                app()->form('MainForm')->progressBar->hide();
+                app()->form('MainForm')->label->hide();
             
-            $this->loadForm('gameStarting');});
+                $this->loadForm('gameStarting');});
         })->start();
     }
     

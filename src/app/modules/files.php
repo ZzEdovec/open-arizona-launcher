@@ -85,7 +85,7 @@ class files extends AbstractModule
                 {
                     app()->form('MainForm')->label->text = 'Скачивание '.$content['name'].' ('.$this->downloaded.'/'.$this->todownload.'), '.app()->form('MainForm')->progressBar->progress.'%';
                 });
-                $this->downloader->download($this->repo.'/desktop/game/arizona/game'.$workdir.$content['name'],$this->gamepath.$workdir.$content['name'])->isError();
+                $this->downloader->download($this->repo.'/desktop/game/arizona/game'.$workdir.$content['name'],$this->gamepath.$workdir.$content['name']);
             }
         }
     }

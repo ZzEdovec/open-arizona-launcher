@@ -62,6 +62,7 @@ class gameStarting extends AbstractForm
     }
     
     function kill()
+    {
         app()->form('MainForm')->button->enabled = true;
         $this->label->free();
         $this->panel->free();

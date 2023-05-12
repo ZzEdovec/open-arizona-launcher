@@ -34,7 +34,7 @@ class gameStarting extends AbstractForm
         if ($this->appModule()->detectSystem() == 'Windows')
             $proc = new Process([$gamepath.'\gta_sa.exe','-c -h '.$server->data('ip').' -p '.$server->data('port').' -n '.app()->form('MainForm')->editAlt->text.' -mem 2048'.$exec.' -arizona'],$gamepath);
         else 
-            $proc = new Process(['wine',$gamepath.'\gta_sa.exe','-c -h '.$server->data('ip').' -p '.$server->data('port').' -n '.app()->form('MainForm')->editAlt->text.' -mem 2048'.$exec.' -arizona'],$gamepath);
+            $proc = new Process(['wine',$gamepath.'/gta_sa.exe','-c -h '.$server->data('ip').' -p '.$server->data('port').' -n '.app()->form('MainForm')->editAlt->text.' -mem 2048'.$exec.' -arizona'],$gamepath);
         
         $this->label->blinkAnim->disable();
         $this->label->blinkAnim->free();
@@ -51,21 +51,21 @@ class gameStarting extends AbstractForm
                     UXDialog::show('Произошла ошибка - '.$ex->getMessage(),'ERROR');
                 });
             }
-            
+
+            uiLater(function ()
+            {
             $this->kill();
+            });
+
         })->start();
         
     }
     
     function kill()
-    {
-        uiLater(function ()
-        {
-            app()->form('MainForm')->button->enabled = true;
-            $this->label->free();
-            $this->panel->free();
-            $this->free();
-        });
+        app()->form('MainForm')->button->enabled = true;
+        $this->label->free();
+        $this->panel->free();
+        $this->free();
     }
 
 }

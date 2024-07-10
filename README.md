@@ -17,4 +17,4 @@
 https://yoomoney.ru/to/4100116276215735
 
 # Автор и помощь
-Обращайтесь сюда - https://vk.me/queinu или https://t.me/queinucentral
+Обращайтесь сюда - https://vk.me/queinu или https://t.me/queinu

@@ -1,3 +1,7 @@
+# ‼️ Больше не поддерживается
+Оригинальный лаунчер Arizona RolePlay стал работать на Linux и смысл в этом лаунчере пропал.
+Для запуска ARZ на Linux запускайте оригинальный лаунчер для Windows через [Faugus Launcher](https://github.com/Faugus/faugus-launcher) или [PortProton](https://linux-gaming.ru/t/ustanovka-portproton-ispolzovanie-wine-proton-bez-steam/24)
+
 # open arizona launcher
 Неофициальный Open Source лаунчер для Arizona RolePlay. Работает с официальными репозиториями Arizona Games. Нативно запускается на Linux, поддерживает быструю установку зависимостей для игры через winetricks.
 
